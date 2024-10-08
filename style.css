@@ -1,7 +1,50 @@
-.info {
-    background-color: aqua;
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
+
+.info {
+    background-color: rgb(109, 202, 202);
+    margin: auto;
+    width: 90%;
 }
+
+p{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+/* Colocando o nome no centro e cor azul nele */
 #nome{
     text-align: center;
+    color: blue;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: normal;
 }
+h2{
+    background-color: darkgray(207, 211, 210);
+    transition: background-color 0.3;
+}
+h2:hover{
+    background-color: rgb(25, 248, 200);
+}
+
+#foto{
+text-align: center;
+
+}
+
+.academico , .complemetares, .copetencia{
+    text-align: center;
+    background-color: darkgray;
+    /* padding: 20px; */
+    border: 1px dashed black;
+    box-shadow: 5px 3px 4px black;
+
+}
+ol{
+    list-style-type: upper-alpha;
+    width: 80%;
+    margin: auto;
+    
+}
+
+
+
